@@ -30,4 +30,9 @@ describe("AppComponent", () => {
       "pm app is running!"
     );
   });
+
+  it("should render title", () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    fixture.detectChanges();
+  });
 });
